@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "fields": [
+      {
+        "field": "USERNAME",
+        "displayName": "Jira server Username",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Jira server account username",
+        "example": "default",
+        "helpSection": "The username associated with your account"
+      },
+      {
+        "field": "PASSWORD",
+        "displayName": "Jira server Password",
+        "type": "password",
+        "minLength": 1,
+        "maxLength": 60,
+        "required": true,
+        "description": "Jira server account password",
+        "example": "s3cr3t",
+        "helpSection": "The password associated with your account"
+      },
+      {
+        "field": "DOMAIN_NAME",
+        "displayName": "Jira server Domain Name",
+        "type": "String",
+        "minLength": 4,
+        "maxLength": 60,
+        "required": true,
+        "description": "Company name registered with jira account",
+        "example": "acmecorp",
+        "helpSection": "A Jira Server site"
+      }
+    ]
+  }

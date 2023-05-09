@@ -2,7 +2,7 @@
 
 ![Jira](images/jira-logo.png)
 
-Jira is a project management tool used for tracking and managing projects, tasks, teams. Jira is also used by software teams to track bug reporting, feature requests, and retrospective data.   
+Jira is a project management tool used for tracking and managing projects, tasks, and teams. Jira is also used by software teams to track bug reporting, feature requests, and retrospective data.   
 
 The Kosha Jira connector enables you to perform REST API operations from the Kafka API in your Kosha workflow or custom application. Using the Kosha Jira connector, you can directly access the Jira platform to:
 
@@ -54,17 +54,6 @@ A user is any individual who you provide access to your Jira instance.  Use the 
 * Getting, creating, and deleting users 
 * Getting a list of groups a user belongs to
 * Getting a list of user account IDs for a list of usernames or user keys
-
-### Example Usage
-
-The following request returns details about a specific user:
-
-```
-curl --request GET \
-  --url 'https://your-domain.atlassian.net/rest/api/3/user?accountId=5b10ac8d82e05b22cc7d4ef5' \
-  --user 'email@example.com:< api_token >' \
-  --header 'Accept: application/json'
-``` 
 
 ## Authentication
 

@@ -2,7 +2,7 @@
 
 Jira is a project management tool used for tracking and managing projects, tasks, and teams. Jira is also used by software teams to track bug reporting, feature requests, and retrospective data.   
 
-The Kosha Jira connector enables you to perform REST API operations from the Kafka API in your Kosha workflow or custom application. Using the Kosha Jira connector, you can directly access the Jira platform to:
+The Kosha Jira connector enables you to perform REST API operations from the Jira API in your Kosha workflow or custom application. Using the Kosha Jira connector, you can directly access the Jira platform to:
 
 * Create, update, or delete filters
 * Create or edit issues, individually or in bulk
